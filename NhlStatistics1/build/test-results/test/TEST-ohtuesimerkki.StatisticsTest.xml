@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ohtuesimerkki.StatisticsTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2017-03-23T17:09:15" hostname="fuxi16" time="0.01">
+<testsuite name="ohtuesimerkki.StatisticsTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2017-03-25T09:01:28" hostname="fuxi16" time="0.01">
   <properties/>
   <testcase name="testTeamNotFound" classname="ohtuesimerkki.StatisticsTest" time="0.005"/>
-  <testcase name="testSearchNotFound" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
+  <testcase name="testSearchNotFound" classname="ohtuesimerkki.StatisticsTest" time="0.001"/>
   <testcase name="testSearchFound" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
-  <testcase name="testTopScorersFour" classname="ohtuesimerkki.StatisticsTest" time="0.002"/>
+  <testcase name="testTopScorersFour" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
   <testcase name="testTopScorersZero" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
   <testcase name="testTeamWithoutPlayers" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
   <testcase name="testTopScorersSix" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>

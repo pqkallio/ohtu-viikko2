@@ -59,31 +59,31 @@ public class StatisticsTest {
     @Test
     public void testTopScorersSeven() {
         List<Player> scorers = this.stats.topScorers(7);
-        assertEquals(8, scorers.size());
+        assertEquals(7, scorers.size());
     }
     
     @Test
     public void testTopScorersSix() {
         List<Player> scorers = this.stats.topScorers(6);
-        assertEquals(7, scorers.size());
+        assertEquals(6, scorers.size());
     }
     
     @Test
     public void testTopScorersFour() {
         List<Player> scorers = this.stats.topScorers(4);
-        assertEquals(5, scorers.size());
+        assertEquals(4, scorers.size());
     }
     
     @Test
     public void testTopScorersTwo() {
         List<Player> scorers = this.stats.topScorers(2);
-        assertEquals(3, scorers.size());
+        assertEquals(2, scorers.size());
     }
     
     @Test
     public void testTopScorersZero() {
         List<Player> scorers = this.stats.topScorers(0);
-        assertEquals(1, scorers.size());
+        assertEquals(0, scorers.size());
     }
     
     @Test
