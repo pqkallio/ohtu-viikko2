@@ -46,4 +46,8 @@ public class Varasto implements VarastoRajapinta {
         saldot.put(new Tuote(4, "Mikkeller not just another Wit", 7), 40);
         saldot.put(new Tuote(5, "Weihenstephaner Hefeweisse", 4), 15);
     }
+
+    public Kirjanpito getKirjanpito() {
+        return kirjanpito;
+    }
 }
